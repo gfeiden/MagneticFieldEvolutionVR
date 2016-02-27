@@ -1,0 +1,82 @@
+%
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{graphicx}
+\usepackage[margin=1in]{geometry}
+\usepackage[]{natbib}
+\usepackage[]{sidecap}
+\usepackage{setspace}
+\usepackage{defs}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\usepackage{pdfpages}
+\usepackage{enumitem}
+
+\usepackage{libertine}
+\usepackage[T1]{fontenc}
+
+\usepackage[pdftex]{hyperref}
+\hypersetup {
+    bookmarks=true,                    % show bookmarks bar in pdf reader
+    pdftitle={Research Proposal - 2016 VR Etableringsbidrag},                   
+    pdfauthor={Gregory A. Feiden},     % set pdf author
+    pdfsubject={}, % pdf subject
+    colorlinks=true,                   % false = box link, true = colored links
+    linkcolor=black,                   % color of internal links
+    citecolor=black,                    % color of citations
+    urlcolor=NavyBlue                      % external url color
+}
+\urlstyle{same}
+
+\citestyle{aa}
+\bibliographystyle{mn}
+
+\pagestyle{fancy}
+\fancyhead[L]{Gregory Feiden -- Control Number -- Research Plan}
+\fancyhead[R]{\thepage\ of\ \pageref{LastPage}}
+\fancyfoot[C]{}
+\renewcommand{\headrulewidth}{0.0pt}
+
+\fancypagestyle{plain}{
+    \fancyhf{}
+    \fancyfoot[C]{\thepage\ of\ \pageref{LastPage}}
+    \renewcommand{\headrulewidth}{0.0pt}
+    \renewcommand{\footrulewidth}{0.0pt}
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5\baselineskip}
+\newenvironment{myindentpar}[1]%
+ {\begin{list}{}%
+         {\setlength{\leftmargin}{#1}}%
+         \item[]%
+ }
+ {\end{list}}
+
+\begin{document}
+
+\begin{center}
+	{\bf {\LARGE Dynamo Generated Magnetic Fields in 
+	
+		  Early Stellar Evolution}}
+\end{center}
+\vspace{\baselineskip}
+
+Stars with masses below 5 solar masses begin their lives
+
+{\bf \large Purpose and Aims}
+
+{\bf \large Survey of the Field}
+
+{\bf \large Project Description}
+
+{\bf \large Significance}
+
+{\bf \large Preliminary Results}
+
+{\bf \large Independent Line of Research}
+
+
+\end{document}
