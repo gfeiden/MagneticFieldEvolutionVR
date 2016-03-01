@@ -9,7 +9,7 @@ An example of the first ten lines of a snapshot file is
 #  Mass (Msun):  1.000 Fe/H (dex):   0.00
 #
 #---------
-   16  668
+   16  424
     1 28.361093  8.523041 17.373937  7.199757  2.169888  0.000135  0.829214  1.463748  0.12796530E+05
     2 28.411093  8.539708 17.373887  7.199738  2.169858  0.000152  0.829214  1.463748  0.12796530E+05
     3 28.461093  8.556376 17.373833  7.199716  2.169825  0.000170  0.829214  1.463748  0.12796530E+05
@@ -21,9 +21,9 @@ The header is marked by '#' in the first column. Contained in the header of the 
 
 ## Convection Zone Boundaries
 
-Below the header are two integers that represent the outer boundary of the convective core and the inner boundary of the convective envelope, respectively. In the example above, the star has a small convective core that has a boundary at the 16th mass shell and an outer convective envelope that begins at mass shell 668 and extends to the outer most mass shell.
+Below the header are two integers that represent the outer boundary of the convective core and the inner boundary of the convective envelope, respectively. In the example above, the star has a small convective core that has a boundary at the 16th mass shell and an outer convective envelope that begins at mass shell 424 and extends to the outer most mass shell (668).
 
-__Note__: A convective core bounday of 0 (naught) indicates there is no convective core. Similarly, a convective envelope boundary of 0 (naught) indicates there is no convective envelope. Counter to intuition, a convective envelope boundary equal to the total number of mass shells indicates that the model is _fully convective_.
+__Note__: A convective core bounday of 1 (one) and a convective envelope boundary of M (total number of mass shells) indicates that the regions do not exist. That is, there is no convective core or distinct convective envelope. Counter to intuition, a convective envelope boundary equal to the total number of mass shells may indicate that the model is _fully convective_. 
 
 ## Stellar Thermal Structure
 
