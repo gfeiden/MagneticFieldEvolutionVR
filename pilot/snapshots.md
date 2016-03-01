@@ -23,11 +23,17 @@ The header is marked by '#' in the first column. Contained in the header of the 
 
 Below the header are two integers that represent the outer boundary of the convective core and the inner boundary of the convective envelope, respectively. In the example above, the star has a small convective core that has a boundary at the 16th mass shell and an outer convective envelope that begins at mass shell 668 and extends to the outer most mass shell.
 
-__Note__: A convective core bounday of 0 (naught) indicates there is no convective core. Similarly, a convective envelope boundary of 0 indicates there is no convective envelope. Counter to intuition, a convective envelope boundary equal to the total number of mass shells indicates that the model is _fully convective_.
+__Note__: A convective core bounday of 0 (naught) indicates there is no convective core. Similarly, a convective envelope boundary of 0 (naught) indicates there is no convective envelope. Counter to intuition, a convective envelope boundary equal to the total number of mass shells indicates that the model is _fully convective_.
 
 ## Stellar Thermal Structure
 
-Each of the next rows provides information about the physical state each mass shell. Tabulated is the mass shell number, the mass contained interior to that mass shell, the radius of the mass shell, the total pressure (gas + radiation [+ magnetic]), the gas temperature, the gas density, the total luminosity, the mean molecular weight, the mean molecular weight per free electron, and the convective velocity (from mixing length theory).
+Each of the next rows provides information about the physical state of each mass shell. Tabulated is the mass shell number, the mass contained interior to that mass shell, the radius of the mass shell, the total pressure (gas + radiation [+ magnetic]), the gas temperature, the gas density, the total luminosity, the mean molecular weight, the mean molecular weight per free electron, and the convective velocity (from mixing length theory).
 
-__Note__: All quantities are logarithmic (base 10) with the exception of the mass shell number, the two mean molecular weights, and the convective velocity (first quantity and the final three quantities).
+__Note__: All quantities are logarithmic (base 10) with the exception of the mass shell number, the two mean molecular weights, and the convective velocity (first quantity and the final three quantities). __Units are exclusively cgs.__
 
+Explicitly, we have
+
+```
+ Shell #   log10(M_r)   log10(R)   log10(P_tot)   log10(T_gas)    log10(rho_gas)   log10(L)   mu_atom   mu_electron   u_conv
+   [ ]        [g]         [cm]     [dyne cm^-2]       [K]           [g cm^-3]     [erg s^-1]    [ ]        [ ]       [cm s^-1]
+```
