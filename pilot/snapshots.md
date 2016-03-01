@@ -2,7 +2,7 @@
 
 An example of the first ten lines of a snapshot file is
 
-"""
+```
 # DMESTAR Mass Track Snapshot
 #
 # Model Number:    600  Age (Myr):   4671.339
@@ -13,7 +13,7 @@ An example of the first ten lines of a snapshot file is
     1 28.361093  8.523041 17.373937  7.199757  2.169888  0.000135  0.829214  1.463748  0.12796530E+05
     2 28.411093  8.539708 17.373887  7.199738  2.169858  0.000152  0.829214  1.463748  0.12796530E+05
     3 28.461093  8.556376 17.373833  7.199716  2.169825  0.000170  0.829214  1.463748  0.12796530E+05
-"""
+```
 
 ## Header
 
