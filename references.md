@@ -13,3 +13,10 @@ Summary:
 Gregory et al. ([2012, ApJ, 755, 97](http://adsabs.harvard.edu/abs/2012ApJ...755...97G))
 
 Summary:
+
+
+#### K2 Rotation Periods of low-mass Hyads and the Implications for Gyrochronology
+
+Douglas et al. ([2016, ApJ, in press](http://arxiv.org/abs/1603.00419))
+
+Summary:
