@@ -29,11 +29,11 @@ __Note__: When a convective boundary shell is equal to one (1), it indicates tha
 
 Each of the next rows provides information about the physical state of each mass shell. Tabulated is the mass shell number, the mass contained interior to that mass shell, the radius of the mass shell, the total pressure (gas + radiation [+ magnetic]), the gas temperature, the gas density, the total luminosity, the mean molecular weight, the mean molecular weight per free electron, and the convective velocity (from mixing length theory).
 
-__Note__: All quantities are logarithmic (base 10) with the exception of the mass shell number, the two mean molecular weights, and the convective velocity (first quantity and the final three quantities). __Units are exclusively cgs__ unless otherwise noted.
+__Note__: All quantities are logarithmic (base 10) with the exception of the mass shell number and the convective velocity (first quantity and last quantity). __Units are exclusively cgs__ unless otherwise noted.
 
 Explicitly, we have
 
 ```
- Shell #   log10(M_r)   log10(R)   log10(P_tot)   log10(T_gas)    log10(rho_gas)   log10(L)   mu_atom   mu_electron   u_conv
-   [ ]        [g]         [cm]     [dyne cm^-2]       [K]           [g cm^-3]     [erg s^-1]    [ ]        [ ]       [cm s^-1]
+ Shell #   log10(M_r)   log10(R)   log10(P_tot)   log10(T_gas)    log10(rho_gas)   log10(L)  log10(mu_a) log10(mu_e)   u_conv
+   [ ]        [g]         [cm]     [dyne cm^-2]       [K]           [g cm^-3]     [erg s^-1]     [ ]        [ ]       [cm s^-1]
 ```
