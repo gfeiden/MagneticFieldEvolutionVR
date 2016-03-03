@@ -21,7 +21,7 @@ The header is marked by '#' in the first column. This contains basic information
 
 ## Convection Zone Boundaries
 
-Below the header are three integers that represent the shell number of the convective core's outer boundary, the convective envelope's inner boundary, and the total number of shells, respectively. In the example above, the star has a small convective core that has a boundary at the 16th mass shell and an outer convective envelope that begins at mass shell 424 and extends to the outer most mass shell (668). The total number of shells (1025) includes those from the Lagrangian mesh used for the interior solution and shells used in the "envelope" solution, which is solved separately from the bulk of the interior using a shooting method.
+Below the header are three integers that represent the shell number of the convective core's outer boundary, the convective envelope's inner boundary, and the total number of shells, respectively. In the example above, the star has a small convective core that has a boundary at the 16th mass shell and an outer convective envelope that begins at mass shell 424 and extends to the outer most mass shell (1288). The total number of shells (1288) includes those from the Lagrangian mesh used for the interior solution and shells used in the "envelope" solution, which is solved separately from the bulk of the interior using a shooting method.
 
 __Note__: When a convective boundary shell is equal to one (1), it indicates that the region does not exist. That is, there is no convective core or distinct convective envelope. A convective envelope boundary equal to one (1) could also indicate that the model is _fully convective_ (very-low-mass or pre-main-sequence stars).
 
