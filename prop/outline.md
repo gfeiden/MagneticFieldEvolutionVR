@@ -7,6 +7,8 @@
 ## Projects
 
 ### P1. Dynamo-Generated Magnetic Fields throughout Early (sub)Stellar Evolution
+Primary focus is coupling 1D stellar evolution model to a 2D mean-field dynamo model. [NORDITA] 
+Comparison against observations of stellar magnetic fields. [Uppsala; ESO; UT Austin]
 
 #### P1.1 Magnetic Fields in Surface Convection Zones of Low- and Intermediate-Mass Stars
 
@@ -15,11 +17,14 @@
 #### P1.3 Magnetic Fields in Young Brown Dwarfs and Giant Planets
 
 ### P2. Starspots and Atmospheric Considerations
+Exploring the impact of starspots on observable properties (preliminary: Feiden & Christophe, in prep). [NORDITA]
+Including magnetic fields in stellar atmosphere models to better prescribe surface boundary conditions. [Uppsala]
 
 ### P3. Fundamental Properties of Young Stars
+Confronting model predictions of young star properties as a function of age using a large number of stars characterized with spectro-bolometric techniques (CALYPSO) and young eclipsing binaries observed by Kepler/K2. [Hawaii; UT Austin]
 
 ### P4. Homogeneous Ages for Young Stellar Associations
-
+Deriving homoegenous ages for young stellar associations using available literature data. Provides constraints on a number of interesting astrophysical phenomena. [partially with UT Austin; Stockholm]
 
 ## Significance
   - Ages of Young Stars
@@ -37,6 +42,7 @@
   - Grid of Stellar Models
     - available to public
     - allows extensive testing of theory
+  - Relevance for Next-Generation Surveys
 
 ## Preliminary Results
   - Feiden (2016, submitted)
