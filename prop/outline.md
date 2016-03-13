@@ -16,7 +16,10 @@
 
 ### P2. Starspots and Atmospheric Considerations
 
-### P3. Homogeneous Ages for Young Stellar Associations
+### P3. Fundamental Properties of Young Stars
+
+### P4. Homogeneous Ages for Young Stellar Associations
+
 
 ## Significance
   - Ages of Young Stars
@@ -47,7 +50,7 @@ None thus far?
   - [Confirmed] Star formation group at UT Austin (Kraus, Rizzuto). Fundamental properties of young stars using B- through M-type EBs in young associations with Kepler/K2. Magnetic fields of young stars with IGRINS.
   - [Confirmed] CALYPSO: Calibration of Low-mass Young stars and their Planetary Systems with Observations (Mann [UT Austin], Gaidos [Hawaii], Ansdell [Hawaii]). Fundamental properties of bona fidé members of nearby young moving groups using "spectro-bolometric techniques."
   - [Option] MDI/ZDI research group at ESO (Hussain, Lavail). Magnetic field topologies for young T-Tauri stars that can be compared against predictions from models in P1 with age information from P3.
-  - [Option] MDI/ZDI research group at Uppsala (Kochukhov, Silvester, Rosén). Magnetic field topologies for young solar analogs and intermediate mass stars in young stellar associations.
+  - [Option] MDI/ZDI research group at Uppsala (Kochukhov, Rosén). Magnetic field topologies for young solar analogs in young stellar associations.
   - [Confirmed] Open Cluster collaboration (Silvester, Landstreet). Magnetic field topologies for intermediate mass stars in several young stellar associations.
   - [Option] Disk group at Stockholm (Janson)? Provide models to compute ages of directly imaged extrasolar planets and systems with circumstellar disks.
 
