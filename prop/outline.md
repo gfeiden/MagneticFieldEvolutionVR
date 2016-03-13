@@ -10,11 +10,25 @@
 Primary focus is coupling 1D stellar evolution model to a 2D mean-field dynamo model. [NORDITA] 
 Comparison against observations of stellar magnetic fields. [Uppsala; ESO; UT Austin]
 
+Three sub-projects:
+
 #### P1.1 Magnetic Fields in Surface Convection Zones of Low- and Intermediate-Mass Stars
+Core of project. Evolution of dynamo-generated magnetic fields in stellar convective envelopes. 
+How is magnetic topology affected by rotation and the size of the convectie envelope/radiative 
+core? How does the evolving topology influence the feedback on stellar structure? When and why
+do stars transition from relatively "simple" axisymmetric, dipolar large-scale magnetic fields 
+to predominantly non-axisymmetric, complex fields? Can we predict distribution of magnetic 
+energy in $\mathcal{l}$-modes (spherical harmonic)? Trace temporal evolution of stellar magnetic
+activity cycles and polarity reversals. [among many other things]
 
 #### P1.2 Core Convection in the Presence of Magnetic Fields
+Investigate strength and topologies of magnetic fields in convection cores. Potential feedback
+on stellar structure, restriction of overshoot? [IS THIS POSSIBLE?!] 
 
 #### P1.3 Magnetic Fields in Young Brown Dwarfs and Giant Planets
+Investigate how magnetic field generation is affected in cool, high pressure (degenerate) plasmas with
+neutral outer layers. Is the thermal evolution of these objects affected by magnetic fields as with 
+young stellar objects? [IS THIS POSSIBLE?!]
 
 ### P2. Starspots and Atmospheric Considerations
 Exploring the impact of starspots on observable properties (preliminary: Feiden & Christophe, in prep). [NORDITA]
