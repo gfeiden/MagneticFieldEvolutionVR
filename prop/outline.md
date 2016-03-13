@@ -12,7 +12,7 @@ Comparison against observations of stellar magnetic fields. [Uppsala; ESO; UT Au
 
 Three sub-projects:
 
-#### P1.1 Magnetic Fields in Surface Convection Zones of Low- and Intermediate-Mass Stars
+__P1.1 Magnetic Fields in Surface Convection Zones of Low- and Intermediate-Mass Stars__
 Core of project. Evolution of dynamo-generated magnetic fields in stellar convective envelopes. 
 How is magnetic topology affected by rotation and the size of the convectie envelope/radiative 
 core? How does the evolving topology influence the feedback on stellar structure? When and why
@@ -21,11 +21,11 @@ to predominantly non-axisymmetric, complex fields? Can we predict distribution o
 energy in $\mathcal{l}$-modes (spherical harmonic)? Trace temporal evolution of stellar magnetic
 activity cycles and polarity reversals. [among many other things]
 
-#### P1.2 Core Convection in the Presence of Magnetic Fields
+__P1.2 Core Convection in the Presence of Magnetic Fields__
 Investigate strength and topologies of magnetic fields in convection cores. Potential feedback
 on stellar structure, restriction of overshoot? [IS THIS POSSIBLE?!] 
 
-#### P1.3 Magnetic Fields in Young Brown Dwarfs and Giant Planets
+__P1.3 Magnetic Fields in Young Brown Dwarfs and Giant Planets__
 Investigate how magnetic field generation is affected in cool, high pressure (degenerate) plasmas with
 neutral outer layers. Is the thermal evolution of these objects affected by magnetic fields as with 
 young stellar objects? [IS THIS POSSIBLE?!]
