@@ -80,10 +80,10 @@ Deriving homoegenous ages for young stellar associations using available literat
 ## International and National Collaborations
   - [Confirmed] Star formation group at UT Austin (Kraus, Rizzuto). Fundamental properties of young stars using B- through M-type EBs in young associations with Kepler/K2. Magnetic fields of young stars with IGRINS.
   - [Confirmed] CALYPSO: Calibration of Low-mass Young stars and their Planetary Systems with Observations (Mann [UT Austin], Gaidos [Hawaii], Ansdell [Hawaii]). Fundamental properties of bona fidé members of nearby young moving groups using "spectro-bolometric techniques."
-  - [Consider] MDI/ZDI research group at ESO (Hussain, Lavail). Magnetic field topologies for young T-Tauri stars that can be compared against predictions from models in P1 with age information from P3.
-  - [Consider] MDI/ZDI research group at Uppsala (Kochukhov, Rosén). Magnetic field topologies for young solar analogs in young stellar associations.
+  - [Pending] MDI/ZDI research group at ESO (Hussain, Lavail). Magnetic field topologies for young T-Tauri stars that can be compared against predictions from models in P1 with age information from P3.
+  - [Pending] MDI/ZDI research group at Uppsala (Kochukhov, Rosén). Magnetic field topologies for young solar analogs in young stellar associations.
   - [Confirmed] Open Cluster collaboration (Silvester, Landstreet). Magnetic field topologies for intermediate mass stars in several young stellar associations.
-  - [Consider] Disk group at Stockholm (Janson)? Provide models to compute ages of directly imaged extrasolar planets and systems with circumstellar disks.
+  - [Pending] Disk group at Stockholm (Janson)? Provide models to compute ages of directly imaged extrasolar planets and systems with circumstellar disks.
 
 ## Other Grants
 Consdiering SNSB. Not likely, though.
