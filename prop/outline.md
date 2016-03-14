@@ -25,13 +25,15 @@ activity cycles and polarity reversals. [among many other things]
 __P1.2 Core Convection in the Presence of Magnetic Fields__
 
 Investigate strength and topologies of magnetic fields in convection cores. Potential feedback
-on stellar structure, restriction of overshoot? [IS THIS POSSIBLE?!] 
+on stellar structure, suppression of overshoot? [IS THIS POSSIBLE?!] How does this affect the
+approach to the MS? Long-term consequences for red giant asteroseismology. 
 
 __P1.3 Magnetic Fields in Young Brown Dwarfs and Giant Planets__
 
 Investigate how magnetic field generation is affected in cool, high pressure (degenerate) plasmas with
 neutral outer layers. Is the thermal evolution of these objects affected by magnetic fields as with 
-young stellar objects? [IS THIS POSSIBLE?!]
+young stellar objects? Extract estimates of ohmic dissipation from dynamo models 
+and account for extra heat in stellar models. [IS THIS POSSIBLE?!]
 
 ### P2. Starspots and Atmospheric Considerations
 Exploring the impact of starspots on observable properties (preliminary: Feiden & Christophe, in prep). [NORDITA]
@@ -62,13 +64,17 @@ Deriving homoegenous ages for young stellar associations using available literat
   - Relevance for Next-Generation Surveys
 
 ## Preliminary Results
-  - Feiden (2016, submitted)
-  - Pilot study for the Sun 
-  - Pilot study for a low-mass star [?]
+  - Feiden (2016, submitted). Identification of magnetic fields as culprit for age discrepancies.
+  - Pilot study for the Sun.
+  - Pilot study for a low-mass star. [?]
+  - Feiden & Christophe (in preparation). Parametrized model of starspots.
+  - Stars characterized for CALYPSO.
 
 ## Independent Lines of Research
-None thus far?
-
+  - CALYPSO: second avenue of research is characterizing planets around young stars. 
+    Feiden (PI) provides a comprehensive analysis of host stars using stellar models
+    to give stellar mass, age, and distance estimates with realistic uncertainties.
+  
 ## International and National Collaborations
   - [Confirmed] Star formation group at UT Austin (Kraus, Rizzuto). Fundamental properties of young stars using B- through M-type EBs in young associations with Kepler/K2. Magnetic fields of young stars with IGRINS.
   - [Confirmed] CALYPSO: Calibration of Low-mass Young stars and their Planetary Systems with Observations (Mann [UT Austin], Gaidos [Hawaii], Ansdell [Hawaii]). Fundamental properties of bona fidé members of nearby young moving groups using "spectro-bolometric techniques."
