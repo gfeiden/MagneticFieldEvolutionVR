@@ -65,8 +65,7 @@ Deriving homoegenous ages for young stellar associations using available literat
 
 ## Preliminary Results
   - Feiden (2016, submitted). Identification of magnetic fields as culprit for age discrepancies.
-  - Pilot study for the Sun.
-  - Pilot study for a low-mass star. [?]
+  - Pilot study for the Sun (and low-mass star?).
   - Feiden & Christophe (in preparation). Parametrized model of starspots.
   - Stars characterized for CALYPSO.
 
@@ -74,14 +73,17 @@ Deriving homoegenous ages for young stellar associations using available literat
   - CALYPSO: second avenue of research is characterizing planets around young stars. 
     Feiden (PI) provides a comprehensive analysis of host stars using stellar models
     to give stellar mass, age, and distance estimates with realistic uncertainties.
+  - 4MOST Internal Working Group 7 -- _Galactic Analysis Pipeline_ -- providing stellar
+    structure and atmosphere code for self-consistent determination of atmospheric 
+    parameters, mass, and ages for over 1 million stars.
   
 ## International and National Collaborations
   - [Confirmed] Star formation group at UT Austin (Kraus, Rizzuto). Fundamental properties of young stars using B- through M-type EBs in young associations with Kepler/K2. Magnetic fields of young stars with IGRINS.
   - [Confirmed] CALYPSO: Calibration of Low-mass Young stars and their Planetary Systems with Observations (Mann [UT Austin], Gaidos [Hawaii], Ansdell [Hawaii]). Fundamental properties of bona fidé members of nearby young moving groups using "spectro-bolometric techniques."
-  - [Option] MDI/ZDI research group at ESO (Hussain, Lavail). Magnetic field topologies for young T-Tauri stars that can be compared against predictions from models in P1 with age information from P3.
-  - [Option] MDI/ZDI research group at Uppsala (Kochukhov, Rosén). Magnetic field topologies for young solar analogs in young stellar associations.
+  - [Consider] MDI/ZDI research group at ESO (Hussain, Lavail). Magnetic field topologies for young T-Tauri stars that can be compared against predictions from models in P1 with age information from P3.
+  - [Consider] MDI/ZDI research group at Uppsala (Kochukhov, Rosén). Magnetic field topologies for young solar analogs in young stellar associations.
   - [Confirmed] Open Cluster collaboration (Silvester, Landstreet). Magnetic field topologies for intermediate mass stars in several young stellar associations.
-  - [Option] Disk group at Stockholm (Janson)? Provide models to compute ages of directly imaged extrasolar planets and systems with circumstellar disks.
+  - [Consider] Disk group at Stockholm (Janson)? Provide models to compute ages of directly imaged extrasolar planets and systems with circumstellar disks.
 
 ## Other Grants
 Consdiering SNSB. Not likely, though.
