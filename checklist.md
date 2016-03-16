@@ -5,7 +5,7 @@ Information taken from [VR Call](http://vr.se/inenglish/researchfunding/applyfor
   - Popular scientific description (in Swedish)
   - Research plan (pdf)
   - Budget and research resources (with justification)
-  - ~Publication list (pdf)~
+  - ~~Publication list (pdf)~~
   - Letter of support
-  - ~Administrating organization~
+  - ~~Administrating organization~~
   - CV (pdf)
