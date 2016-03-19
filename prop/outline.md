@@ -1,4 +1,4 @@
-# Ages of Young Stars and the Evolution of Dynamo-Generated Stellar Magnetic Fields
+# Ages of Stars and the Evolution of Dynamo-Generated Magnetic Fields
 
 ## Purpose & Aims
 
@@ -6,11 +6,24 @@
 
 ## Projects
 
-### P1. Dynamo-Generated Magnetic Fields throughout Early (sub)Stellar Evolution
+### P1. Dynamo-Generated Magnetic Fields throughout Stellar Evolution
+
 Primary focus is coupling 1D stellar evolution model to a 2D mean-field dynamo model. [NORDITA] 
 Comparison against observations of stellar magnetic fields. [Uppsala; ESO; UT Austin]
 
-Three sub-projects:
+During:
+
+__P1.1 Pre-Main-Sequence Evolution__
+
+__P1.2 Main-Sequence Evolution__
+
+__P1.3 Post-Main-Sequence Evolution__
+
+Strength and topology of magnetic fields generated in stars with convective cores. As convective cores disappear, remnant fields remain in the cores of a fraction of red giant stars. These may be able to trap asteroseismic g-modes and suppress coupling between g- and p-mode near the core-enevelope boundary (Fuller et al. 2015; Cantiello et al. 2016; Stello et al. 2016).
+
+### P2. Dynamo-Generated Magnetic Fields throughout Substellar Evolution
+
+Focus on the role of magnetic fields in the early history of brown dwarfs and giant planets. [connection to Jupiter & Saturn; directly imaged planets + brown dwarfs]
 
 __P1.1 Magnetic Fields in Surface Convection Zones of Low- and Intermediate-Mass Stars__
 
