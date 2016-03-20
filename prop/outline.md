@@ -1,4 +1,4 @@
-# Ages of Stars and the Evolution of Dynamo-Generated Magnetic Fields
+# Temporal Evolution of Dynamo-Generated (sub)Stellar Magnetic Fields
 
 ## Purpose & Aims
 
