@@ -5,7 +5,7 @@
 \usepackage[usenames,dvipsnames]{xcolor}
 \usepackage{graphicx}
 \usepackage[margin=1in]{geometry}
-\usepackage[]{natbib}
+\usepackage[square]{natbib}
 \usepackage[]{sidecap}
 \usepackage{setspace}
 \usepackage{defs}
@@ -15,7 +15,12 @@
 \usepackage{enumitem}
 
 \usepackage{libertine}
+%\usepackage{times}
 \usepackage[T1]{fontenc}
+
+\setlength{\parindent}{0cm}
+\setlength{\parskip}{0.4\baselineskip}
+\setlist{nolistsep}
 
 \usepackage[pdftex]{hyperref}
 \hypersetup {
@@ -30,7 +35,7 @@
 }
 \urlstyle{same}
 
-\citestyle{aa}
+%\citestyle{aa}
 \bibliographystyle{mn}
 
 \pagestyle{fancy}
@@ -58,43 +63,60 @@
 \begin{document}
 
 \begin{center}
-	{\bf {\LARGE Ages of Young Stars and the Evolution 
+	{\bf {\Large Temporal Evolution of Dynamo-Generated 
 	
-	of Dynamo-Generated Magnetic Fields}} 
+	 (sub)Stellar Magnetic Fields}} 
 \end{center}
 
-Astrophysical phenomena generally occur over time periods inaccessible to even the most patient human. Typical timescales range from thousands to billions of years. Nevertheless, time dependence is a vital component in our understanding astrophysical processes. 
+Magnetic fields are present in nearly all stars and substellar objects during every stage of their temporal evolution \citep[hereafter (sub)stellar evolution;][]{Donati2009}. (Sub)Stellar magnetic fields come in two flavors: (1) dynamo-generated fields, or magnetic fields that are actively created and sustained by internal dynamical processes, and (2) fossil/remnant fields, which are not actively created or sustained by dynamical processes. Magnetic fields, in particular dynamo-generated fields, influence a range physical processes and may ultimately help govern (sub)stellar interior structure and evolution. However, investigations studying the role magnetic fields play in regulating physical phenomena regularly neglect the intimate, reciprocal relationship between stellar structure and magnetic field properties. 
+
+%Astrophysical phenomena generally occur over time periods inaccessible to even the most patient human. Typical timescales range from thousands to billions of years. Nevertheless, time dependence is a vital component in our understanding astrophysical processes. 
 %To overcome the difficulties 
-Instead of monitoring a single system over time, astronomers gain insight into the time dependence of astrophysical phenomena by considering an ensemble of systems at different ages. Individual systems provide snapshots in time and a chronological ordering produces a stop-motion film of various processes across cosmic time. Accurate absolute ages are therefore the most sought after astrophysical quantities. This is particularly true for young systems, where ages provide critical constraints on the formation of stars, planets, and objects in-between. However, despite their importance, accurate ages for young systems remain elusive.
+%Instead of monitoring a single system over time, astronomers gain insight into the time dependence of astrophysical phenomena by considering an ensemble of systems at different ages. Individual systems provide snapshots in time and a chronological ordering produces a stop-motion film of various processes across cosmic time. Accurate absolute ages are therefore the most sought after astrophysical quantities. This is particularly true for young systems, where ages provide critical constraints on the formation of stars, planets, and objects in-between. However, despite their importance, accurate ages for young systems remain elusive.
 
-\vspace{\baselineskip}
+\vspace{0.5\baselineskip}
 
-{\bf \large Purpose and Aims}
+{\bf \large Purpose and Aims} \\
+This proposal aims to understand the relationship between the structural evolution of stars and substellar objects and dynamo-generated magnetic fields. That is, to investigate how the properties of dynamo-generated magnetic fields are affected by (sub)stellar structure over time, as well as how (sub)stellar structure is influenced by the presence of magnetic fields. Furthermore, the proposal seeks to deepen understanding about relationship between dynamo-generated magnetic fields at during early stages of evolution and remnant/fossil magnetic fields that exist at later evolutionary stages.
+
+The research program will rely on theoretical modeling of stellar structure and evolution coupled with 
+the coupling of a sophisticated stellar structure and evoluti	on model with a detailed mean-field magnetic dynamo model. The former was developed specifically to treat the effects of magnetic fields on stellar structure while the latter provides a realistic description of the magnetic fields generation
+
+Key questions this proposal seeks to answer include:
+\begin{itemize}[leftmargin=0.25in]
+	\item How does the topology of a large-scale (sub)stellar magnetic field evolve with time and what are the important characteristics of a star's structure that govern it?
+	\item 
+\end{itemize}
+
+By answering these questions, the proposal will help address several fundamental...in stellar astrophysics.
+\begin{itemize}[leftmargin=0.25in]
+	\item What role do magnetic fields play in governing early contraction rates of young (sub)stellar objects, and subsequently, how do magnetic fields influence masses and ages derived for these young objects?
+	\item How do magnetic activity cycles (analogous to the 11 year solar cycle) vary throughout a star's life?
+	\item How  
+\end{itemize}
 
 \clearpage
 
 {\bf \large Survey of the Field}
-\begin{itemize}
-	\item Age-dating problems for young stars. (i.e., model inconsistencies)
-	\item Identification / inclusion of magnetic fields in models. (D'Antona, MacDonald, Feiden)
-	\item Magnetic field observations. (e.g., MDI, ZDI)
-	\item Open questions.
-\end{itemize}
 
-\begin{figure}
-	\centering
-	\includegraphics[width=0.75\linewidth]{./fig/USco_Age_Problems.eps}
-	\caption{Caption.}
-	\label{fig:probs}
-\end{figure}
 
-\begin{figure}
-	\centering
-	\includegraphics[width=0.45\linewidth]{./fig/USco_HR_diagram.eps} \qquad
-	\includegraphics[width=0.45\linewidth]{./fig/USco_MR_diagram.eps}
-	\caption{Caption.}
-	\label{fig:usco}
-\end{figure}
+%Stellar magnetic fields come in two flavors: (1) fossil fields and (2) dynamo-generated fields. Fossil fields are topologically stable magnetic fields that exist predominantly in regions of stars w... In contrast, dynamo-generated magnetic fields are created and sustained through an active magnetic dynamo process that continually... 
+
+
+%\begin{figure}
+%	\centering
+%	\includegraphics[width=0.75\linewidth]{./fig/USco_Age_Problems.eps}
+%	\caption{Caption.}
+%	\label{fig:probs}
+%\end{figure}
+%
+%\begin{figure}
+%	\centering
+%	\includegraphics[width=0.45\linewidth]{./fig/USco_HR_diagram.eps} \qquad
+%	\includegraphics[width=0.45\linewidth]{./fig/USco_MR_diagram.eps}
+%	\caption{Caption.}
+%	\label{fig:usco}
+%\end{figure}
 
 {\bf \large Project Description}
 
@@ -108,7 +130,16 @@ This project is subdivided into three sub-projects denoted SP1, SP2, and SP3. Ea
 Magnetic inhibition of convection, magnetic field topology, rotational evolution, activity cycles.
 
 \textbf{\textit{SP2. Main-Sequence Evolution}} \\
-Rotational evolution, wind breaking, magnetic field topology, dynamo shifts at the fully convective boundary, activity cycles.
+By the time stars reach the hydrogen burning main sequence, the relative age difference predicted by standard and magnetic stellar evolution models is quite negligible. Nevertheless, magnetic fields can continue to play an important role in stellar main sequence evolution. This depends largely on how fast the star is rotating, which in turn, is goverend by the topology of the large-scale magnetic field and the efficiency of magnetic wind breaking mechanisms. 
+
+As stars evolve along the main sequence, magnetic winds exert a torque on the star, carrying away angular momentum gradually slowing the star's rotation rate---so called ``magnetic wind breaking.'' Throughout most of a star's main sequence lifetime, its rotational velocity decays and is proportional to the inverse square root of its age, $v_{\rm rot}(t) \propto t^{-1/2}$ \citep{Skumanich1972}; a direct consequence of magnetic wind breaking \citep{Durney1972}. However, recent evidence shows that magnetic wind breaking is effectively halted during the late stages of a star's main sequence lifetime, leading to older main sequence stars rotating more rapidly than expected \citep{vanSaders2016}. 
+
+\emph{This sub-project will explore potential physical mechanisms underlying the abrupt weakening of magnetic wind breaking and will seek to correlate the physical mechanisms with properties of stellar interior structure.} Multiple hypotheses have been proposed: (i) a sudden decrease in the large-scale magnetic field strength \citep{Durney1977}, (ii) a change in the large-scale magnetic field topology \citep{Reville2015}, and (iii) changes in the distribution of magnetically active regions at the stellar surface \citep[][]{Cohen2009}. 
+
+The coupled stellar dynamo-evolution model will be uniquely suited to explore hypotheses (i) and (ii). 
+
+Exploration of option (iii) is difficult. Limited spatial resolution makes it difficult to discern small-scale features such as magnetic active regions. In addition, global mean-field dynamo simulations do not explicitly account for Lorentz-force feedback on convective flows, meaning suppression of convection necessary to create starspot groups is not possible. Our approach implicitly assumes that magnetic inhibition of convection is a global phenomenon and occurs over thermal timescales allowing us to treat it in the stellar structure calculation \citep{FC12b}.
+
 
 \textbf{\textit{SP3. Post-Main-Sequence Evolution}} \\
 Depletion of hydrogen in stellar cores eventually reaches a level... Stars begin to traverse across the HR diagram along the sub-giant branch and up the first-ascent red giant branch once hydrogen shell burning ceases. Stars more massive than approximately 1.2 Msun possess a convective core along the hydrogen burning main sequence that is able to sustain a dynamo-generated magnetic field \citep[e.g.,][]{Browning2004,Featherstone2009,Augustson2016}. Upon leaving the main sequence, however, convection in the stellar core rapidly subsides (8 Myr). The fate of the dynamo-generated magnetic fields produced by the convective core during this period of rapid transition off the main-sequence is unexplored. 
@@ -205,6 +236,9 @@ Stars characterized for CALYPSO thus far.
 
 {\bf \large Other Grants}
 
+% Aarhus proposal has condensed references
+\setlength{\itemsep}{0.5mm}
+\small
 \bibliography{/Users/grefe950/Dropbox/papers}
 
 \end{document}
