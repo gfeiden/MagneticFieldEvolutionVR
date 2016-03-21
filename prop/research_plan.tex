@@ -8,6 +8,7 @@
 \usepackage[square]{natbib}
 \usepackage[]{sidecap}
 \usepackage{setspace}
+\usepackage{amsmath,amssymb}
 \usepackage{defs}
 \usepackage{lastpage}
 \usepackage{fancyhdr}
@@ -68,7 +69,7 @@
 	 (sub)Stellar Magnetic Fields}} 
 \end{center}
 
-Magnetic fields are present in nearly all stars and substellar objects during every stage of their temporal evolution \citep[hereafter (sub)stellar evolution;][]{Donati2009}. (Sub)Stellar magnetic fields come in two flavors: (1) dynamo-generated fields, or magnetic fields that are actively created and sustained by internal dynamical processes, and (2) fossil/remnant fields, which are not actively created or sustained by dynamical processes. Magnetic fields, in particular dynamo-generated fields, influence a range physical processes and may ultimately help govern (sub)stellar interior structure and evolution. However, investigations studying the role magnetic fields play in regulating physical phenomena regularly neglect the intimate, reciprocal relationship between stellar structure and magnetic field properties. 
+Magnetic fields are present in nearly all stars and substellar objects throughout their temporal evolution \citep[hereafter (sub)stellar evolution;][]{Donati2009}. (Sub)Stellar magnetic fields come in two flavors: (1) dynamo-generated fields, or magnetic fields that are actively created and sustained by internal dynamical processes, and (2) fossil/remnant fields, which are not actively created or sustained by dynamical processes. Magnetic fields, especially dynamo-generated fields, influence a number of physical processes throughout a star's lifetime, such as a star's rotational evolution, and they may ultimately help govern the physical structure of (sub)stellar interiors. However, investigations studying the role magnetic fields play in regulating physical phenomena regularly neglect the intimate, reciprocal relationship between stellar structure and magnetic field properties. 
 
 %Astrophysical phenomena generally occur over time periods inaccessible to even the most patient human. Typical timescales range from thousands to billions of years. Nevertheless, time dependence is a vital component in our understanding astrophysical processes. 
 %To overcome the difficulties 
@@ -77,10 +78,10 @@ Magnetic fields are present in nearly all stars and substellar objects during ev
 \vspace{0.5\baselineskip}
 
 {\bf \large Purpose and Aims} \\
-This proposal aims to understand the relationship between the structural evolution of stars and substellar objects and dynamo-generated magnetic fields. That is, to investigate how the properties of dynamo-generated magnetic fields are affected by (sub)stellar structure over time, as well as how (sub)stellar structure is influenced by the presence of magnetic fields. Furthermore, the proposal seeks to deepen understanding about relationship between dynamo-generated magnetic fields at during early stages of evolution and remnant/fossil magnetic fields that exist at later evolutionary stages.
+This proposal aims to understand the relationship between dynamo-generated magnetic fields and the structural evolution of stars and substellar objects. That is, to investigate how the properties of dynamo-generated magnetic fields are affected by (sub)stellar structure over time, as well as how (sub)stellar structure is influenced by the presence of magnetic fields. Furthermore, the proposal seeks to deepen understanding about relationship between dynamo-generated magnetic fields and remnant/fossil magnetic fields that typically exist at later evolutionary stages when dynamo processes subside.
 
-The research program will rely on theoretical modeling of stellar structure and evolution coupled with 
-the coupling of a sophisticated stellar structure and evoluti	on model with a detailed mean-field magnetic dynamo model. The former was developed specifically to treat the effects of magnetic fields on stellar structure while the latter provides a realistic description of the magnetic fields generation
+The research program will rely on theoretical modeling of stellar magnetic dynamos simultaneously with theoretical modeling of stellar structure and evolution. Specifically, by coupling a sophisticated one-dimensional stellar evolution model, designed to include effects of magnetic fields on stellar structure, with detailed two- and three-dimensional mean-field magnetic dynamo models. While theoretically driven, the research program will rely on a continuous feedback cycle with cutting edge ground- and space-based observations to assess the validity of theoretical predictions.
+
 
 Key questions this proposal seeks to answer include:
 \begin{itemize}[leftmargin=0.25in]
@@ -97,8 +98,14 @@ By answering these questions, the proposal will help address several fundamental
 
 \clearpage
 
-{\bf \large Survey of the Field}
+{\bf \large Survey of the Field} \\
+Stars with masses below 3 Msun are believed to emerge from their nascent molecular cloud with predominantly, if not fully, convective interior structures \citep{Hayashi1961}. 
+%Newly formed stars with masses below approximately 3 Msun begin their life as cool, luminous objects.
+These newly formed stars are large, luminous, and cool. Their luminosity is not powered by nuclear reactions, but by the release of gravitational potential energy as they slowly contract under the influence of gravity \citep{Henyey1955}. During this ``pre-main-sequence'' phase, gas inside the star is highly opaque making radiation extremely inefficient at transporting excess energy released by gravitational contraction to the stellar surface. To maintain thermal equilibrium, the plasma becomes unstable to convection. 
 
+To date, the study of magnetic fields in stellar interiors has been confined either to simple 1D approximations about how magnetic fields inhibit convective flows over evolutionary timescales \citep{GT66,LS95} or to complex 2D and 3D magnetohydrodynamic (MHD) simulations \citep[e.g.,][]{Brandenburg2005, Stein2012}. Each approach has its advantages. 
+
+Stellar evolution models including magnetic perturbations \citep[e.g.,][]{FC12b} reveal how the presence of globally pervasive magnetic fields affect stellar structure. requiring instead that the magnetic field be artificially prescribed \citep[e.g.,][]{MM01,FC12b,FC13}. 
 
 %Stellar magnetic fields come in two flavors: (1) fossil fields and (2) dynamo-generated fields. Fossil fields are topologically stable magnetic fields that exist predominantly in regions of stars w... In contrast, dynamo-generated magnetic fields are created and sustained through an active magnetic dynamo process that continually... 
 
@@ -118,16 +125,23 @@ By answering these questions, the proposal will help address several fundamental
 %	\label{fig:usco}
 %\end{figure}
 
-{\bf \large Project Description}
-
-\textbf{P1. Dynamo-Generated Magnetic Fields throughout Stellar Evolution} \\
+{\bf \large Project Description} \\
 Describe coupling of stellar evolution and mean-field dynamo theory. 
 
+
+\textbf{P1. Dynamo-Generated Magnetic Fields throughout Stellar Evolution} \\
 This project is subdivided into three sub-projects denoted SP1, SP2, and SP3. Each sub-project focuses on a particular stage of stellar evolution from the pre-main-sequence through the first ascent red giant branch. The majority of the project's focus will be on SP1: the early evolution of dynamo generated magnetic fields. Although relatively brief compared to full evolutionary timescales, pre-main-sequence evolution dictates... and has far reaching implications for... Continuing evolution beyond the pre-MS comes at a very small computational cost. Evolution along the main-sequence can be modeled with very little computational time. Recently, magnetic fields have been proposed to explain several observational phenomena revealed by the \kepler\ Space Telescope \citep{Fuller2015, vanSaders2016}. The code we propose to develop provides an opportunity to study the physics underlying the observed phenomena. Therefore, we will allow stars and their dynamo-generated magnetic fields to evolve along the main-sequence and up the red giant branch. 
 %By doing so, we will be able to explore several open questions in stellar evolution in which magnetic fields have been implicated.
 
 \textbf{\textit{SP1. Pre-Main-Sequence Evolution}} \\
-Magnetic inhibition of convection, magnetic field topology, rotational evolution, activity cycles.
+%Magnetic inhibition of convection, magnetic field topology, rotational evolution, activity cycles.
+Accurate absolute stellar ages are perhaps the most sought after of astrophysical quantities. This is especially true for identifiably young systems, where absolute ages are our only constraints on time-dependent astrophysical phenomena, such as timescales for dispersal of primordial gaseous circumstellar disks \citep{Haisch2001,Mamajek2009} and extrasolar giant planet formation \citep{Chabrier2014}. Furthermore, stellar ages are critical for estimating  masses of brown dwarfs and directly imaged giant planets \citep{Kalas2008}. Despite their importance, accurate ages for young stars and stellar populations remain elusive. This is largely due to a necessary reliance on predictions from stellar evolution models, which are beset with problems at ages younger than 250 Myr \citep{Soderblom2014,Stassun2014}. 
+
+Most concerning is that stellar models predict ages that are strongly dependent on effective temperature and on the stellar properties used in the analysis. HR diagram fitting of stars with $T_{\rm eff} \gtrsim 5\,500$~K yield ages that are a factor of two older than the cooler stellar population \citep{Naylor2009, Herczeg2015}. For example, ages in the Upper Scorpius OB association vary by a factor of 2 -- 3 for different effective temperature regimes (see Figure 1). Stellar model ages also depend on whether one compares observations to models in the HR or mass-radius diagram. Ages for the same star in Upper Scorpius differ by a factor of two between the HR and mass-radius diagrams \citep{Kraus2015}. These results are consistent across model sets \citep{Herczeg2015}, indicating problems are endemic to young stellar models and that models are missing physics. A factor of two error in stellar ages means directly imaged young brown dwarf and giant planet masses may be systematically underestimated by 35\%. %Such a bias can have drastic consequences for our interpretation of objects near hydrogen and deuterium burning limits (Spiegel \etal\ 2011; e.g., 2M1207-3932: Chauvin \etal\ 2004; 2M0122-2439 B: Bowler \etal\ 2013; 51 Eri b: Macintosh \etal\ 2015)
+
+\citet{DAntona2000} presented possible hints of the missing physics. They showed that inclusion of rudimentary magnetic inhibition of convection provided better agreement between the masses and HR diagram locations for the T-Tauri components of the eclipsing binary RX J0529.4+0041. They also noted that magnetic inhibition of convection reduced lithium depletion. This trend was later confirmed and leveraged to reconcile the HR diagram and lithium depletion boundary age for the $\beta$-Pictoris moving group \citep{MM10, Malo2014}. Notably, \citet{Malo2014} further demonstrated that models including magnetic fields could potentially mitigate age dependencies on spectral type.
+
+Viability of magnetic fields as ``the missing physics'' in stellar evolution models is best evidenced by {\it Kepler}/K2 observations of eclipsing binary systems in Upper Scorpius (see Figure 2). Magnetic inhibition of convection appears to provide the missing link needed to relieve spectral type dependencies in stellar ages in Upper Scorpius (Feiden 2016). {\bf Critically, magnetic stellar models naturally reproduce the slope of the mass-radius relationship at the same age inferred from the HR diagram, a feat standard models cannot accomplish.}
 
 \textbf{\textit{SP2. Main-Sequence Evolution}} \\
 By the time stars reach the hydrogen burning main sequence, the relative age difference predicted by standard and magnetic stellar evolution models is quite negligible. Nevertheless, magnetic fields can continue to play an important role in stellar main sequence evolution. This depends largely on how fast the star is rotating, which in turn, is goverend by the topology of the large-scale magnetic field and the efficiency of magnetic wind breaking mechanisms. 
