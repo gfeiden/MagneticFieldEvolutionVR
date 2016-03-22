@@ -37,18 +37,7 @@
 \urlstyle{same}
 
 %\citestyle{aa}
-\bibliographystyle{vr1}
-
-\usepackage{threeparttable} 
-% set distance between references
-\newlength{\bibitemsep}\setlength{\bibitemsep}{.01\baselineskip plus .01\baselineskip minus .01\baselineskip}
-\newlength{\bibparskip}\setlength{\bibparskip}{0pt}
-\let\oldthebibliography\thebibliography
-\renewcommand\thebibliography[1]{%
- \oldthebibliography{#1}%
- \setlength{\parskip}{\bibitemsep}%
- \setlength{\itemsep}{\bibparskip}%
-}
+\bibliographystyle{mn}
 
 \pagestyle{fancy}
 \fancyhead[L]{Gregory Feiden -- Personal Number -- Research Plan}
@@ -136,9 +125,17 @@ Stellar evolution models including magnetic perturbations \citep[e.g.,][]{FC12b}
 %	\label{fig:usco}
 %\end{figure}
 
+\clearpage
+
 {\bf \large Project Description} \\
 Describe coupling of stellar evolution and mean-field dynamo theory. 
 
+\begin{figure}
+	\centering
+	\includegraphics[width=0.75\linewidth]{./fig/dynamo_evolution.pdf}
+	\caption{\small Flow of information in a magnetic dynamo evolution model. A 1D magnetic stellar evolution model \citep[{\sc dmestar};][]{FC12b} forms the system's backbone, passing interior structure parameters to a 2D/3D mean-field magnetic dynamo simulation \citep[{\sc pencil} code;][]{Brandenburg2002}. Maxwell stresses computed as a function of radius in the dynamo simulation are passed back to the 1D stellar model and the large-scale magnetic field strength and topology are used to compute magnetic wind breaking properties \citep[e.g.,][]{Reville2015} for the 1D stellar evolution model. The system is iterated in time and the cycle begins anew.}
+	\label{fig:schematic}
+\end{figure}
 
 \textbf{P1. Dynamo-Generated Magnetic Fields throughout Stellar Evolution} \\
 This project is subdivided into three sub-projects denoted SP1, SP2, and SP3. Each sub-project focuses on a particular stage of stellar evolution from the pre-main-sequence through the first ascent red giant branch. The majority of the project's focus will be on SP1: the early evolution of dynamo generated magnetic fields. Although relatively brief compared to full evolutionary timescales, pre-main-sequence evolution dictates... and has far reaching implications for... Continuing evolution beyond the pre-MS comes at a very small computational cost. Evolution along the main-sequence can be modeled with very little computational time. Recently, magnetic fields have been proposed to explain several observational phenomena revealed by the \kepler\ Space Telescope \citep{Fuller2015, vanSaders2016}. The code we propose to develop provides an opportunity to study the physics underlying the observed phenomena. Therefore, we will allow stars and their dynamo-generated magnetic fields to evolve along the main-sequence and up the red giant branch. 
@@ -262,13 +259,7 @@ Stars characterized for CALYPSO thus far.
 {\bf \large Other Grants}
 
 % Aarhus proposal has condensed references
-{\bf \large References}
-\scriptsize
-\begingroup
-\twocolumn
-%\renewcommand{\refname}{\normalfont\selectfont\normalsize References} 
+\scriptsize 
 \bibliography{/Users/grefe950/Dropbox/papers}
-
-\endgroup
 
 \end{document}
