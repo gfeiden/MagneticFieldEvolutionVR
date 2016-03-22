@@ -37,7 +37,18 @@
 \urlstyle{same}
 
 %\citestyle{aa}
-\bibliographystyle{mn}
+\bibliographystyle{vr1}
+
+\usepackage{threeparttable} 
+% set distance between references
+\newlength{\bibitemsep}\setlength{\bibitemsep}{.01\baselineskip plus .01\baselineskip minus .01\baselineskip}
+\newlength{\bibparskip}\setlength{\bibparskip}{0pt}
+\let\oldthebibliography\thebibliography
+\renewcommand\thebibliography[1]{%
+ \oldthebibliography{#1}%
+ \setlength{\parskip}{\bibitemsep}%
+ \setlength{\itemsep}{\bibparskip}%
+}
 
 \pagestyle{fancy}
 \fancyhead[L]{Gregory Feiden -- Personal Number -- Research Plan}
@@ -251,8 +262,13 @@ Stars characterized for CALYPSO thus far.
 {\bf \large Other Grants}
 
 % Aarhus proposal has condensed references
-\setlength{\itemsep}{0.5mm}
-\small
+{\bf \large References}
+\scriptsize
+\begingroup
+\twocolumn
+%\renewcommand{\refname}{\normalfont\selectfont\normalsize References} 
 \bibliography{/Users/grefe950/Dropbox/papers}
+
+\endgroup
 
 \end{document}
