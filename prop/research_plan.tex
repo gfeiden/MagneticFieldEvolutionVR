@@ -14,6 +14,7 @@
 \usepackage{fancyhdr}
 \usepackage{pdfpages}
 \usepackage{enumitem}
+\usepackage[labelfont=bf]{caption}
 
 \usepackage{libertine}
 %\usepackage{times}
@@ -35,6 +36,10 @@
     urlcolor=NavyBlue                      % external url color
 }
 \urlstyle{same}
+
+\captionsetup[table]{textfont=sc, labelsep=newline, labelformat=simple, justification=centering}
+\captionsetup[figure]{font=small, labelsep=colon, labelformat=simple}
+
 
 %\citestyle{aa}
 \bibliographystyle{mn}
@@ -99,33 +104,28 @@ By answering these questions, the proposal will help address several fundamental
 \clearpage
 
 {\bf \large Survey of the Field} \\
-Stars with masses below 3 Msun are believed to emerge from their nascent molecular cloud with predominantly, if not fully, convective interior structures \citep{Hayashi1961}. 
-%Newly formed stars with masses below approximately 3 Msun begin their life as cool, luminous objects.
-These newly formed stars are large, luminous, and cool. Their luminosity is not powered by nuclear reactions, but by the release of gravitational potential energy as they slowly contract under the influence of gravity \citep{Henyey1955}. During this ``pre-main-sequence'' phase, gas inside the star is highly opaque making radiation extremely inefficient at transporting excess energy released by gravitational contraction to the stellar surface. To maintain thermal equilibrium, the plasma becomes unstable to convection. 
+Magnetic fields are a ubiquitous feature of stars and (sub)stellar objects across the Hertzsprung-Russell (HR) diagram. Nearly every class of star is observed to possess a magnetic field or is known to have possessed a magnetic field at some point during its lifetime \citep{Donati2009}. 
+Broadly speaking, stellar magnetic fields fall into two categories: (1) dynamo-generated field and (2) fossil/remnant fields. The type of magnetic field possessed by a given star is directly related to its position in the HR diagram. Figure~\ref{fig:hrd} shows an HR diagram and highlights the type of magnetic field possessed by stars in each region.
+Magnetic fields are pervasive in stars at across the HR diagram. 
+Support with observational evidence for magnetic field on the surface of stars at different SpTs from pre-MS through RGB. Evidence for core magnetic fields.
 
-To date, the study of magnetic fields in stellar interiors has been confined either to simple 1D approximations about how magnetic fields inhibit convective flows over evolutionary timescales \citep{GT66,LS95} or to complex 2D and 3D magnetohydrodynamic (MHD) simulations \citep[e.g.,][]{Brandenburg2005, Stein2012}. Each approach has its advantages. 
+The two observed categories of stellar magnetic fields are thought to be indicative of different mechanisms governing the evolution of the field \citep{Donati2009}. Magnetic fields in cool low-mass stars, with their weak large-scale and strong small-scale magnetic field components, are created and sustained through dynamical processes resulting from the interaction between azimuthal rotation and predominantly radial convective flows in their outer layers---a so called ``hydromagnetic dynamo'' or simply ``dynamo'' \citep{Parker1955}. %Babcock & Leighton better?
+Dynamo mechanisms 
+Fossil fields are topologically stable magnetic fields that exist predominantly in regions of stars w... In contrast, dynamo-generated magnetic fields are created and sustained through an active magnetic dynamo process that continually... 
 
-Stellar evolution models including magnetic perturbations \citep[e.g.,][]{FC12b} reveal how the presence of globally pervasive magnetic fields affect stellar structure. requiring instead that the magnetic field be artificially prescribed \citep[e.g.,][]{MM01,FC12b,FC13}. 
+Note that fossil fields beget dynamo fields, which often beget remnant fields.
 
-%Stellar magnetic fields come in two flavors: (1) fossil fields and (2) dynamo-generated fields. Fossil fields are topologically stable magnetic fields that exist predominantly in regions of stars w... In contrast, dynamo-generated magnetic fields are created and sustained through an active magnetic dynamo process that continually... 
+General description of the physics as motivated by seminal work (Babcock, Leighton, Cowling, Parker). Supported by detailed (R)MHD simulations. Main results are that the interplay between convection and rotation is critical. Shear vs turbulence. Address virtues and limitations. Mean field simulations.
+
+Dependence on stellar properties; strength and topology. Convection zone depth, resistivity, viscosity, density stratification. Typically in the realm of classical 1D stellar evolution models. Simulations either prescribe the information or motivate it by stellar models.
+
+Dynamically important. They regulate a wide variety of phenomena. Chief among these include driving magnetized stellar winds that ultimately regulate angular momentum evolution and rotational spin-down (Skumanich relation), emission of high energy radiation and eruptive phenomena during activity cycles (important for planetary environments), and they govern the physical structure of stellar interiors. Structure of stars affected by B-field as revealed through 1D models. Has consequences for the development and evolution of magnetic fields. Discuss previous work, key results, highlight how it adds ambiguity to observations. Address virtues and limitations.
+
+In all cases, critical characteristic of magnetic field is the field strength and topology. Both regulate phenomena in different ways. Sometimes it's not entirely clear. Dependence of strength and topology on stellar properties implies dependence on stellar evolutionary state. 
+
+Time dependence!! Temporal evolution of dynamo-generated magnetic fields.
 
 
-%\begin{figure}
-%	\centering
-%	\includegraphics[width=0.75\linewidth]{./fig/USco_Age_Problems.eps}
-%	\caption{Caption.}
-%	\label{fig:probs}
-%\end{figure}
-%
-%\begin{figure}
-%	\centering
-%	\includegraphics[width=0.45\linewidth]{./fig/USco_HR_diagram.eps} \qquad
-%	\includegraphics[width=0.45\linewidth]{./fig/USco_MR_diagram.eps}
-%	\caption{Caption.}
-%	\label{fig:usco}
-%\end{figure}
-
-\clearpage
 
 {\bf \large Project Description} \\
 Describe coupling of stellar evolution and mean-field dynamo theory. 
